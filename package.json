@@ -6,6 +6,7 @@
   "author": "Scott B <djlethal109@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "cli-meow-help": "^2.0.2",
     "meow": "^10.1.1"
   },
   "type": "module"
