@@ -4,7 +4,13 @@ A CLI utility for are.na satisfying some of the functionality that I can't find 
 
 ## Setup
 
-You'll need to provide your are.na personal access token in your environment variables.
+You'll need to set two environment variables for the utilities to be able to access your private channels.
+You can generate a personal access token via the are.na dev site https://dev.are.na
+
+```
+ARENA_ACCESS_TOKEN=
+ARENA_USER_ID=
+```
 
 ## Utilities 
 ### Merge channels (WIP)

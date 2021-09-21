@@ -6,7 +6,9 @@
   "author": "Scott B <djlethal109@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "are.na": "https://github.com/absentees/arena-js",
     "cli-meow-help": "^2.0.2",
+    "dotenv": "^10.0.0",
     "meow": "^10.1.1"
   },
   "type": "module"

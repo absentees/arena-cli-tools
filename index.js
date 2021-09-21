@@ -1,41 +1,7 @@
 #!/usr/bin/env node
 import meow from "meow";
 import meowHelp from "cli-meow-help";
-
-
-// const cli = meow(`
-//             Usage
-//                 $ arena-cli-tools <action> <object> <inputs...>
-
-//             Options
-//                 -c Channel name (Looks in your profile)
-//                 -s Channel slug
-
-//             Examples
-//                 $ arena-cli-tools addBlock https://are.na -c "Added from cli"
-//                 Added URL https://are.na to your channel "Added from CLI"
-
-//                 $ arena-cli-tools merge channels -a channel-adsf1 -s channel-asdf2 -c "New channel"
-//                 Merged channel-asdf1 + channel-asdf2 into new channel "New channel"
-
-// `,{
-//     allowUnknownFlags: false,
-//     importMeta: import.meta,
-//     flags: {
-//         channel: {
-//             alias: 'c',
-//             type: 'string',
-//             isMultiple: true,
-//             isRequired: false
-//         },
-//         slug: {
-//             alias: 's',
-//             type: 'string',
-//             isMultiple: true,
-//             isRequired: false
-//         }
-//     }
-// });
+import utils from "./lib/index.js";
 
 const commands = {
     add: {
@@ -53,6 +19,11 @@ const flags = {
         isMultiple: true,
         isRequired: false,
         desc: `Specific the channel name`
+    },
+    url: {
+        alias: 'u',
+        type: 'string',
+        desc: `URL to add to a channel`
     },
     slug: {
         alias: 's',
@@ -72,9 +43,9 @@ const helpText = meowHelp({
     footer: "Created by @absentees"
 });
 
-meow(helpText,{
+const cli = meow(helpText,{
     importMeta: import.meta,
     flags
 });
 
-// console.log(cli.input, cli.flags)
+utils(cli.input, cli.flags)
