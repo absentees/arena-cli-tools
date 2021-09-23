@@ -1,5 +1,6 @@
 {
   "name": "arena-cli-tools",
+  "description": "A collection of CLI utilities for are.na",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/absentees/arena-cli-tools.git",
@@ -8,8 +9,10 @@
   "dependencies": {
     "are.na": "https://github.com/absentees/arena-js",
     "cli-meow-help": "^2.0.2",
-    "dotenv": "^10.0.0",
     "meow": "^10.1.1"
   },
-  "type": "module"
+  "type": "module",
+  "bin": {
+    "arena-cli-tools": "./index.js"
+  }
 }

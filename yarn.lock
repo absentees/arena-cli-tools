@@ -54,7 +54,7 @@ ansi-styles@^4.1.0:
 
 "are.na@https://github.com/absentees/arena-js":
   version "0.1.5"
-  resolved "https://github.com/absentees/arena-js#9f4e43e94b49be95c60bb8b2312573962872cb65"
+  resolved "https://github.com/absentees/arena-js#2c24acb0b640ae8e7cc60bcd0fd277c6977d7408"
   dependencies:
     axios "^0.18.1"
     qs "^6.5.1"
@@ -183,11 +183,6 @@ decamelize@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/decamelize/-/decamelize-5.0.0.tgz#88358157b010ef133febfd27c18994bd80c6215b"
   integrity sha512-U75DcT5hrio3KNtvdULAWnLiAPbFUC4191ldxMmj4FA/mRuBnmDwU0boNfPyFRhnan+Jm+haLeSn3P0afcBn4w==
-
-dotenv@^10.0.0:
-  version "10.0.0"
-  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-10.0.0.tgz#3d4227b8fb95f81096cdd2b66653fb2c7085ba81"
-  integrity sha512-rlBi9d8jpv9Sf1klPjNfFAuWDjKLwTIJJ/VxtoTwIR6hnZxcEOQCZg2oIL3MWBYw5GpUDKOEnND7LXTbIpQ03Q==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
