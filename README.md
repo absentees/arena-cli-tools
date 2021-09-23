@@ -34,9 +34,10 @@ Merged channel-asdf1 + channel-asdf2 into new channel "New channel"
 
 ### Add URL block to channel (WIP)
 
-Add a URL block to a channel or multiple at once. Provide the URL and the channel with flag `-c` as many times as you like. 
+Add a URL block to a channel or multiple at once. Provide the URL with the `-u` URL and the channels with flag `-c` as many times as you like. 
+The tool will create channels that do not exist.
 
 ```
-$ arena-cli-tools add block https://are.na -c "Added from cli"
+$ arena-cli-tools add -u https://are.na -c "Added from cli" -c "cool CLI url"
 Added URL https://are.na to your channel "Added from CLI"
 ```
