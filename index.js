@@ -13,17 +13,17 @@ const commands = {
 }
 
 const flags = {
-    create: {
-        type: 'boolean',
-        default: false,
-        desc: 'Create channels if specified but do not exist'
-    },
+    // create: {
+    //     type: 'boolean',
+    //     default: false,
+    //     desc: 'Create channels if specified but do not exist'
+    // },
     channel: {
         alias: 'c',
         type: 'string',
         isMultiple: true,
         isRequired: false,
-        desc: `Specific the channel name`
+        desc: `Specific the channel name. Repeat flag for multiple channels. By default, will create channel if it does not exist.`
     },
     url: {
         alias: 'u',
