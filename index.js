@@ -13,6 +13,11 @@ const commands = {
 }
 
 const flags = {
+    create: {
+        type: 'boolean',
+        default: false,
+        desc: 'Create channels if specified but do not exist'
+    },
     channel: {
         alias: 'c',
         type: 'string',
