@@ -39,5 +39,5 @@ The tool will create channels that do not exist.
 
 ```
 $ arena-cli-tools add -u https://are.na -c "Added from cli" -c "cool CLI url"
-Added URL https://are.na to your channel "Added from CLI"
+Added URL https://are.na to your channels: Added from cli,cool CLI url
 ```
