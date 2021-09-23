@@ -36,7 +36,6 @@ const flags = {
 
 const helpText = meowHelp({
     name: 'arena-cli-tools',
-    desc: `A set of helper utilities for are.na`,
     flags,
     commands,
     header: "Are.na CLI tools",
