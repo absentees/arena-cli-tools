@@ -28,7 +28,7 @@ I often accidentally create a new channel when using the browser extension, woul
 **Usage**
 ```
 $ arena-cli-tools merge channels -a channel-adsf1 -s channel-asdf2 -c "New channel"
-Merged channel-asdf1 + channel-asdf2 into new channel "New channel" 
+
 ```
 
 
@@ -39,5 +39,13 @@ The tool will create channels that do not exist.
 
 ```
 $ arena-cli-tools add -u https://are.na -c "Added from cli" -c "cool CLI url"
-Added URL https://are.na to your channels: Added from cli,cool CLI url
+
+```
+
+### List all personal channels
+
+Recursively paginates through the get channel API call retrieving and prints all channels
+
+```
+$ arena-cli-tools list
 ```

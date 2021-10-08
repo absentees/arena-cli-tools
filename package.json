@@ -14,5 +14,11 @@
   "type": "module",
   "bin": {
     "arena-cli-tools": "./index.js"
+  },
+  "scripts": {
+    "test": "xo"
+  },
+  "devDependencies": {
+    "xo": "^0.45.0"
   }
 }
