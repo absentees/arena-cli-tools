@@ -44,7 +44,7 @@ $ arena-cli-tools add -u https://are.na -c "Added from cli" -c "cool CLI url"
 
 ### List all personal channels
 
-Recursively paginates through the get channel API call retrieving and prints all channels
+Recursively paginates through the get channel API call retrieving and prints all channel titles
 
 ```
 $ arena-cli-tools list
